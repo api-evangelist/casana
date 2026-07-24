@@ -1,8 +1,30 @@
 aid: casana
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/casana.png
 name: Casana
-description: 'Casana is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Casana (Casana Care) is a Rochester, New York digital-health company building
+  passive, in-home remote patient monitoring hardware. Its flagship Smart Seat
+  (formerly the Heart Seat) is a toilet-seat replacement that captures vital
+  signs — heart rate, heart-rate variability, blood-oxygen (SpO2), respiration
+  rate, blood-pressure insights, and sit-to-stand power — during normal
+  bathroom use, with no wearables, no daily charging, and explicitly no camera
+  or microphone. Readings sync to companion iOS, Android, and web apps for
+  patients, families, and caregivers. The company operates in the digital
+  health, remote patient monitoring, and connected medical-device space and is
+  backed by General Catalyst and Kaiser Permanente. As of this profile Casana
+  publishes a consumer product, companion apps, and legal/privacy pages, but no
+  public developer program, API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/casana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Remote Patient Monitoring
+- Vital Signs
+- Cardiovascular
+- Connected Medical Devices
+- Consumer Health
 apis: []
+common:
+- type: Website
+  url: https://casanacare.com/
+- type: About
+  url: https://casanacare.com/about
+- type: Support
+  url: https://casanacare.com/support
+- type: Pricing
+  url: https://casanacare.com/
+- type: Login
+  url: https://home.casanacare.com/
+- type: TermsOfService
+  url: https://casanacare.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://casanacare.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
